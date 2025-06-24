@@ -1,7 +1,16 @@
+# spring:
+#     datasource:
+#         url: jdbc:mariadb://localhost:3306/mydb
+#         driver-class-name: org.mariadb.jdbc.Driver
+#         username: root
+#         password: 123
+
+
 spring:
-    datasource:
-        url: jdbc:mariadb://localhost:3306/mydb
-        driver-class-name: org.mariadb.jdbc.Driver
-        username: root
-        password: 123
+    data:
+        mongodb:
+            uri: mongodb://host:27017/mydbname
+#      user: test
+#      password: passwordvalue
+     # uri: mongodb://host:27017/mydbname
 
