@@ -9,7 +9,7 @@
 spring:
     data:
         mongodb:
-            uri: mongodb://host:27017/mydbname
+            uri: mongodb://localhost:27017/mydbname
 #      user: test
 #      password: passwordvalue
      # uri: mongodb://host:27017/mydbname
