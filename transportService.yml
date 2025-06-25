@@ -6,7 +6,7 @@ spring:
         password: 123
 
 test:
-    string: abcde
+    string: abcd
    
 
     
